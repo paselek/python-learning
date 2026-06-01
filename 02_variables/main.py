@@ -14,4 +14,7 @@ print(f"My height is {height} m")
 
 #Boolean
 is_graduate = True
-print(f"Am I a graduate? {is_graduate}")
+if is_graduate:
+    print("I am a graduate")
+else:
+    print("I am not a graduate")
